@@ -10,7 +10,7 @@
 	<!-- the entire body must be written by student -->
 	<form method="post" name="form" id="form">
 		<div>
-			<label for="name">1.Name8</label>
+			<label for="name">1.Name</label>
 			<input type="text" id="name" name="name" placeholder="name" required>
 		</div>
 		<div>
@@ -19,13 +19,13 @@
 		</div>
 		<div>
 			<label for="gender">3.Gender</label>
-			<input type="radio" value="male" name="gender">Male
+			<input type="radio" value="male" name="gender" required>Male
 			<input type="radio" value="female" name="gender">Female
 		</div>
 		<div>
 			<label for="Car Brands">4.Car Brands</label>
 			<select name="Car Brands">
-				<option value="" disabled selected>--Please choose an option--</option>
+				<option value="" disabled selected>select cars</option>
 				<option value="BMW">BMW</option>
 				<option value="Audi">Audi</option>
 				<option value="Mercedez">Mercedez</option>
@@ -33,18 +33,18 @@
 		</div>
 		<div>
 			<label for="carage">5.Car Age</label>
-			<input type="number" id="car age" required>
+			<input type="number" id="carage" required>
 		</div>
 		<div>
 			<label for="dop">6.Date of Purchase</label>
-			<input type="date" name="date of purchase" id="dop" requiredy>
+			<input type="date" name="dop" id="dop" required>
 		</div>
 		<div>
 			<label for="password">7.Password</label>
 			<input type="password" name="password" id="password" required>
 		</div>
 		<div>
-			<button>submit</button>
+			<input type="submit">
 		</div>
 	</form>
     <script type="text/javascript" src="./script.js">
